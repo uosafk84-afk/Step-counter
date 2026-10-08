@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Step Counter</string>
+    <string name="channel_name">Step counting</string>
+</resources>
