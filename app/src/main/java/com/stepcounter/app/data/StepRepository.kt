@@ -89,7 +89,7 @@ class StepRepository(
         val w = out.bufferedWriter()
         w.write("date,steps,distance_km,calories_kcal,goal,goal_reached\n")
         if (first != null) {
-            var d = first
+            var d: LocalDate = first
             val end = LocalDate.now()
             while (!d.isAfter(end)) {
                 val r = rows[d.toString()]
